@@ -6,8 +6,6 @@ import Colors from "./components/color";
 import Lapmodels from "./components/nextcards";
 import Appp from "./components/todolist";
 import Notify from "./components/imgtodo";
-import Imageup from "./components/imgupload";
-//import UploadAndDisplayImage from "./components/imgupload";
 function App() {
   const products = [
     { name: "Nike Shoes", price: 560 },
@@ -115,7 +113,6 @@ function App() {
       </div>
       <Appp />
       <Notify />
-      <Imageup />
     </React.Fragment>
   );
 }
